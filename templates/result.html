@@ -1,0 +1,34 @@
+<body >
+    <center>
+      <h1>Result</h1>
+      <table border = "3">
+          <tr>
+              <th>Name</th>
+              <th>Pregnency</th>
+              <th>Glucose</th>
+              <th>BloodPressure</th>
+              <th>SkinThickness</th>
+              <th>Insulin</th>
+              <th>BMI</th>
+              <th>DiabetesPedigreeFunction</th>
+              <th>Age</th>
+              <th>Result</th>
+          </tr>
+          <tr>
+              <td>{{ cname }}</td>
+              <td>{{ pregn }}</td>
+              <td>{{ glc }}</td>
+              <td>{{ bpr }}</td>
+              <td>{{ skt }}</td>
+              <td>{{ insl }}</td>
+              <td>{{ BMI}}</td>
+              <td>{{ DPF }}</td>
+              <td>{{ Age }}</td>
+	      <td><p style="color:{{ color }}"> {{ result }}</p></td>
+      </table>
+      <form action="/">
+          <input type=submit value="Submit"/>
+      </form>
+    </center>
+</body>
+
